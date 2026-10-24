@@ -1,0 +1,53 @@
+[INFO] [1792800529.399894275] [robot_behavior_node]: Waiting for gesture selection + Thumb_Up, /scan and /odom
+[INFO] [1792800529.757270507] [robot_behavior_node]: IDLE
+Sensors: 788.672956189 788.677214642 obstacle: False
+[INFO] [1792800531.831259187] [robot_behavior_node]: SELECTED: Wave; show Thumb_Up
+[INFO] [1792800533.029112443] [robot_behavior_node]: RUNNING: Wave
+[INFO] [1792800549.729370843] [robot_behavior_node]: IDLE: completed
+Wave {'status': 'IDLE: completed', 'duration_seconds': 17.04, 'start_pose': (-0.5289932894231917, -0.03434320939069412, -2.950616846213553), 'end_pose': (-0.528993289424228, -0.034343209390920455, -2.965773296188353)}
+[INFO] [1792800551.479788405] [robot_behavior_node]: SELECTED: Pointing_Up; show Thumb_Up
+[INFO] [1792800552.478704513] [robot_behavior_node]: RUNNING: Pointing_Up
+[INFO] [1792800553.230473371] [robot_behavior_node]: STOPPED
+Open_Palm {'status': 'STOPPED', 'checked_after_seconds': 0.159}
+[INFO] [1792800554.029811018] [robot_behavior_node]: SELECTED: Pointing_Up; show Thumb_Up
+[INFO] [1792800555.028947321] [robot_behavior_node]: RUNNING: Pointing_Up
+[INFO] [1792800555.779287932] [robot_behavior_node]: IDLE: cancelled
+Closed_Fist {'status': 'IDLE: cancelled', 'checked_after_seconds': 0.151}
+[INFO] [1792800556.580529765] [robot_behavior_node]: SELECTED: Pointing_Up; show Thumb_Up
+[INFO] [1792800557.629201882] [robot_behavior_node]: RUNNING: Pointing_Up
+[INFO] [1792800559.129263946] [robot_behavior_node]: STOPPED: control signal lost
+signal_loss {'status': 'STOPPED: control signal lost', 'checked_after_seconds': 1.102}
+{
+  "Wave": {
+    "status": "IDLE: completed",
+    "duration_seconds": 17.04,
+    "start_pose": [
+      -0.5289932894231917,
+      -0.03434320939069412,
+      -2.950616846213553
+    ],
+    "end_pose": [
+      -0.528993289424228,
+      -0.034343209390920455,
+      -2.965773296188353
+    ]
+  },
+  "Open_Palm": {
+    "status": "STOPPED",
+    "checked_after_seconds": 0.159
+  },
+  "Closed_Fist": {
+    "status": "IDLE: cancelled",
+    "checked_after_seconds": 0.151
+  },
+  "signal_loss": {
+    "status": "STOPPED: control signal lost",
+    "checked_after_seconds": 1.102
+  },
+  "cmd_vel_nonzero_seen": true,
+  "initial_pose": [
+    -0.5289932894231917,
+    -0.03434320939069412,
+    -2.950616846213553
+  ]
+}

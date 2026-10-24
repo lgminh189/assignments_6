@@ -1,0 +1,4 @@
+# Python 3.12 (Ubuntu 24.04 / ROS Jazzy); keep cv_bridge compatible with NumPy 1.
+mediapipe==0.10.21
+numpy>=1.26.4,<2
+opencv-contrib-python>=4.8,<4.12

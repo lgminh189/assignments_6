@@ -1,0 +1,5 @@
+# Keep NumPy 1.x compatible with the system ROS cv_bridge build.
+# Install CPU torch/torchvision first; see README.
+numpy>=1.26,<2
+opencv-python>=4.8,<4.12
+ultralytics>=8.3,<9

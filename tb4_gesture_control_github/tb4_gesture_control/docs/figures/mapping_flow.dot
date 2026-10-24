@@ -1,0 +1,19 @@
+digraph MappingFlow {
+  graph [rankdir=LR, bgcolor="white", pad="0.18", nodesep="0.28", ranksep="0.42", splines=ortho, fontname="DejaVu Sans", label="SƠ ĐỒ MINH HỌA QUY TRÌNH MAPPING", labelloc=t, fontsize=18, fontcolor="#174A6E"];
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=11, margin="0.16,0.10", color="#3D7894", penwidth=1.4, fillcolor="#EAF3F7", fontcolor="#17384B"];
+  edge [fontname="DejaVu Sans", fontsize=9, color="#527C8B", penwidth=1.5, arrowsize=0.75];
+  world [label="Gazebo warehouse\nTurtleBot 4 + cảm biến", fillcolor="#E9F2E6", color="#71956B"];
+  scan [label="LiDAR\n/scan"];
+  odom [label="Bánh xe / controller\n/odom + TF"];
+  slam [label="SLAM Toolbox\nscan matching\nloop closure", fillcolor="#DDEBF4", color="#286884", penwidth=2.0];
+  live [label="Occupancy grid\n/map xem trên RViz", fillcolor="#FFF4D9", color="#B38A34"];
+  save [label="map_saver_cli\nLưu bản đồ"];
+  files [label="final_map.yaml\n+ final_map.pgm", fillcolor="#E7F3EA", color="#54815A", penwidth=2.0];
+  world -> scan;
+  world -> odom;
+  scan -> slam [label="đo môi trường"];
+  odom -> slam [label="ước lượng chuyển động"];
+  slam -> live [label="map cập nhật"];
+  live -> save;
+  save -> files;
+}

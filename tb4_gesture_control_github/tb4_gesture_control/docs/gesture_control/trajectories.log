@@ -1,0 +1,11 @@
+[INFO] [1792800370.639848781] [robot_behavior_node]: Waiting for gesture selection + Thumb_Up, /scan and /odom
+[INFO] [1792800370.665250156] [robot_behavior_node]: IDLE
+Sensors: 629.673628211 629.65943587 obstacle: False
+[INFO] [1792800372.815326220] [robot_behavior_node]: SELECTED: Pointing_Up; show Thumb_Up
+[INFO] [1792800373.815921845] [robot_behavior_node]: RUNNING: Pointing_Up
+[INFO] [1792800421.765805164] [robot_behavior_node]: IDLE: completed
+Pointing_Up {'status': 'IDLE: completed', 'duration_seconds': 48.35, 'start_pose': (-0.3516514306499661, -3.183987138163719e-11, -2.948180748644527), 'end_pose': (-0.343443678929921, 0.0016075724785857292, -2.948180748653186)}
+[INFO] [1792800423.565553470] [robot_behavior_node]: SELECTED: Victory; show Thumb_Up
+[INFO] [1792800424.565576742] [robot_behavior_node]: RUNNING: Victory
+[INFO] [1792800487.266168745] [robot_behavior_node]: IDLE: completed
+Victory {'status': 'IDLE: completed', 'duration_seconds': 63.03, 'start_pose': (-0.343443678929921, 0.0016075724785857028, -2.948180748653186), 'end_pose': (-0.3501812825171684, 0.00022686052200817755, -2.9368098712982396)}

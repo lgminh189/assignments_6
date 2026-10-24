@@ -1,0 +1,1 @@
+{"frame_id": "oakd_rgb_camera_optical_frame", "stamp": {"sec": 95, "nanosec": 469000000}, "detections": [{"class_id": 0, "name": "person", "confidence": 0.8793, "xyxy": [158.00634765625, 0.1258544921875, 212.72540283203125, 144.7984619140625]}]}

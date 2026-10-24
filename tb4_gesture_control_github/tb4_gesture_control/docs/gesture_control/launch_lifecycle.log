@@ -1,0 +1,20 @@
+[INFO] [launch]: All log files can be found below /home/minh/.ros/log/2026-10-24-07-10-10-307508-minh-Cyborg-15-A12UCX-9845
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_behavior_node.py-1]: process started with pid [9848]
+[INFO] [python-2]: process started with pid [9849]
+[robot_behavior_node.py-1] [INFO] [1792800611.039901342] [robot_behavior_node]: Waiting for gesture selection + Thumb_Up, /scan and /odom
+[robot_behavior_node.py-1] [INFO] [1792800611.082480719] [robot_behavior_node]: IDLE
+[python-2] WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[python-2] I0000 00:00:1792800611.595154    9849 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+[python-2] I0000 00:00:1792800611.598622    9897 gl_context.cc:369] GL version: 3.2 (OpenGL ES 3.2 Mesa 25.2.8-0ubuntu0.24.04.2), renderer: Mesa Intel(R) Graphics (ADL GT2)
+[python-2] W0000 00:00:1792800611.599094    9849 gesture_recognizer_graph.cc:129] Hand Gesture Recognizer contains CPU only ops. Sets HandGestureRecognizerGraph acceleration to Xnnpack.
+[python-2] I0000 00:00:1792800611.600104    9849 hand_gesture_recognizer_graph.cc:250] Custom gesture classifier is not defined.
+[python-2] INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[python-2] W0000 00:00:1792800611.624166    9904 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[python-2] W0000 00:00:1792800611.641428    9901 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[python-2] W0000 00:00:1792800611.645286    9907 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[python-2] W0000 00:00:1792800611.645362    9907 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[python-2] [INFO] [1792800611.907880521] [gesture_recognition_node]: Webcam ready. Show one hand; remove it to rearm a command.
+[INFO] [python-2]: process has finished cleanly [pid 9849]
+[INFO] [robot_behavior_node.py-1]: sending signal 'SIGINT' to process[robot_behavior_node.py-1]
+[INFO] [robot_behavior_node.py-1]: process has finished cleanly [pid 9848]

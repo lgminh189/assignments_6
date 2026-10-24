@@ -1,0 +1,97 @@
+[INFO] [1792196553.112315467] [autonomous_navigation]: Waiting for AMCL pose; set 2D Pose Estimate in RViz if needed
+[INFO] [1792196557.131466770] [autonomous_navigation]: Nav2 is ready for use!
+[INFO] [1792196557.131721671] [autonomous_navigation]: Goal 1/3: {'x': -5.0, 'y': 1.0, 'yaw': 1.5708}
+[INFO] [1792196557.132416476] [autonomous_navigation]: Navigating to goal: -5.0 1.0...
+[INFO] [1792196559.194485994] [autonomous_navigation]: Goal 1: 5.26 m remaining
+[INFO] [1792196561.307778655] [autonomous_navigation]: Goal 1: 5.24 m remaining
+[INFO] [1792196563.420278478] [autonomous_navigation]: Goal 1: 5.19 m remaining
+[INFO] [1792196565.535177223] [autonomous_navigation]: Goal 1: 5.12 m remaining
+[INFO] [1792196567.645109658] [autonomous_navigation]: Goal 1: 4.96 m remaining
+[INFO] [1792196569.757203585] [autonomous_navigation]: Goal 1: 4.79 m remaining
+[INFO] [1792196571.867861203] [autonomous_navigation]: Goal 1: 4.54 m remaining
+[INFO] [1792196573.977697706] [autonomous_navigation]: Goal 1: 4.34 m remaining
+[INFO] [1792196576.087097177] [autonomous_navigation]: Goal 1: 4.09 m remaining
+[INFO] [1792196578.197481196] [autonomous_navigation]: Goal 1: 3.89 m remaining
+[INFO] [1792196580.309379791] [autonomous_navigation]: Goal 1: 3.59 m remaining
+[INFO] [1792196582.419684167] [autonomous_navigation]: Goal 1: 3.34 m remaining
+[INFO] [1792196584.529340891] [autonomous_navigation]: Goal 1: 3.12 m remaining
+[INFO] [1792196586.637874482] [autonomous_navigation]: Goal 1: 2.87 m remaining
+[INFO] [1792196588.748209134] [autonomous_navigation]: Goal 1: 2.62 m remaining
+[INFO] [1792196590.857652590] [autonomous_navigation]: Goal 1: 2.37 m remaining
+[INFO] [1792196592.966829269] [autonomous_navigation]: Goal 1: 2.12 m remaining
+[INFO] [1792196595.075445239] [autonomous_navigation]: Goal 1: 1.89 m remaining
+[INFO] [1792196597.184121005] [autonomous_navigation]: Goal 1: 1.62 m remaining
+[INFO] [1792196599.302063159] [autonomous_navigation]: Goal 1: 1.40 m remaining
+[INFO] [1792196601.416131041] [autonomous_navigation]: Goal 1: 1.16 m remaining
+[INFO] [1792196603.527785534] [autonomous_navigation]: Goal 1: 0.94 m remaining
+[INFO] [1792196605.638779081] [autonomous_navigation]: Goal 1: 0.69 m remaining
+[INFO] [1792196607.747609541] [autonomous_navigation]: Goal 1: 0.49 m remaining
+[INFO] [1792196609.858185929] [autonomous_navigation]: Goal 1: 0.27 m remaining
+[INFO] [1792196611.970356070] [autonomous_navigation]: Goal 1: 0.14 m remaining
+[INFO] [1792196612.794693405] [autonomous_navigation]: Goal 1 SUCCEEDED
+[INFO] [1792196612.795203321] [autonomous_navigation]: Goal 2/3: {'x': -5.0, 'y': 6.0, 'yaw': 0.0}
+[INFO] [1792196612.796910197] [autonomous_navigation]: Navigating to goal: -5.0 6.0...
+[INFO] [1792196614.863711010] [autonomous_navigation]: Goal 2: 4.87 m remaining
+[INFO] [1792196616.975437096] [autonomous_navigation]: Goal 2: 4.64 m remaining
+[INFO] [1792196619.084250361] [autonomous_navigation]: Goal 2: 4.42 m remaining
+[INFO] [1792196621.194428144] [autonomous_navigation]: Goal 2: 4.17 m remaining
+[INFO] [1792196623.306486176] [autonomous_navigation]: Goal 2: 3.92 m remaining
+[INFO] [1792196625.416949570] [autonomous_navigation]: Goal 2: 3.74 m remaining
+[INFO] [1792196627.529816686] [autonomous_navigation]: Goal 2: 3.49 m remaining
+[INFO] [1792196629.648528984] [autonomous_navigation]: Goal 2: 3.34 m remaining
+[INFO] [1792196631.764942829] [autonomous_navigation]: Goal 2: 3.09 m remaining
+[INFO] [1792196633.892932953] [autonomous_navigation]: Goal 2: 2.94 m remaining
+[INFO] [1792196636.026851624] [autonomous_navigation]: Goal 2: 2.79 m remaining
+[INFO] [1792196638.139761587] [autonomous_navigation]: Goal 2: 2.57 m remaining
+[INFO] [1792196640.247904351] [autonomous_navigation]: Goal 2: 2.34 m remaining
+[INFO] [1792196642.356549006] [autonomous_navigation]: Goal 2: 2.12 m remaining
+[INFO] [1792196644.465335588] [autonomous_navigation]: Goal 2: 1.89 m remaining
+[INFO] [1792196646.574462909] [autonomous_navigation]: Goal 2: 1.69 m remaining
+[INFO] [1792196648.684557042] [autonomous_navigation]: Goal 2: 1.47 m remaining
+[INFO] [1792196650.797926921] [autonomous_navigation]: Goal 2: 1.27 m remaining
+[INFO] [1792196652.908176608] [autonomous_navigation]: Goal 2: 1.04 m remaining
+[INFO] [1792196655.019661119] [autonomous_navigation]: Goal 2: 0.79 m remaining
+[INFO] [1792196657.132548204] [autonomous_navigation]: Goal 2: 0.59 m remaining
+[INFO] [1792196659.242789796] [autonomous_navigation]: Goal 2: 0.32 m remaining
+[INFO] [1792196661.353526950] [autonomous_navigation]: Goal 2: 0.24 m remaining
+[INFO] [1792196663.462972646] [autonomous_navigation]: Goal 2: 0.24 m remaining
+[INFO] [1792196664.143594249] [autonomous_navigation]: Goal 2 SUCCEEDED
+[INFO] [1792196664.143894228] [autonomous_navigation]: Goal 3/3: {'x': 3.0, 'y': 6.0, 'yaw': 0.0}
+[INFO] [1792196664.144691615] [autonomous_navigation]: Navigating to goal: 3.0 6.0...
+[INFO] [1792196666.208187621] [autonomous_navigation]: Goal 3: 7.80 m remaining
+[INFO] [1792196668.318716256] [autonomous_navigation]: Goal 3: 7.60 m remaining
+[INFO] [1792196670.429970835] [autonomous_navigation]: Goal 3: 7.37 m remaining
+[INFO] [1792196672.541186837] [autonomous_navigation]: Goal 3: 7.19 m remaining
+[INFO] [1792196674.658801361] [autonomous_navigation]: Goal 3: 6.99 m remaining
+[INFO] [1792196676.769184178] [autonomous_navigation]: Goal 3: 6.77 m remaining
+[INFO] [1792196678.880943761] [autonomous_navigation]: Goal 3: 6.57 m remaining
+[INFO] [1792196680.989564220] [autonomous_navigation]: Goal 3: 6.34 m remaining
+[INFO] [1792196683.099874628] [autonomous_navigation]: Goal 3: 6.09 m remaining
+[INFO] [1792196685.210496167] [autonomous_navigation]: Goal 3: 5.87 m remaining
+[INFO] [1792196687.322433967] [autonomous_navigation]: Goal 3: 5.64 m remaining
+[INFO] [1792196689.432201162] [autonomous_navigation]: Goal 3: 5.44 m remaining
+[INFO] [1792196691.539961166] [autonomous_navigation]: Goal 3: 5.22 m remaining
+[INFO] [1792196693.650449114] [autonomous_navigation]: Goal 3: 4.99 m remaining
+[INFO] [1792196695.760860811] [autonomous_navigation]: Goal 3: 4.82 m remaining
+[INFO] [1792196697.871643167] [autonomous_navigation]: Goal 3: 4.59 m remaining
+[INFO] [1792196699.982107641] [autonomous_navigation]: Goal 3: 4.37 m remaining
+[INFO] [1792196702.093415151] [autonomous_navigation]: Goal 3: 4.17 m remaining
+[INFO] [1792196704.201685035] [autonomous_navigation]: Goal 3: 3.94 m remaining
+[INFO] [1792196706.311258336] [autonomous_navigation]: Goal 3: 3.74 m remaining
+[INFO] [1792196708.420668108] [autonomous_navigation]: Goal 3: 3.52 m remaining
+[INFO] [1792196710.531140670] [autonomous_navigation]: Goal 3: 3.29 m remaining
+[INFO] [1792196712.640412643] [autonomous_navigation]: Goal 3: 3.07 m remaining
+[INFO] [1792196714.750892353] [autonomous_navigation]: Goal 3: 2.84 m remaining
+[INFO] [1792196716.859582456] [autonomous_navigation]: Goal 3: 2.62 m remaining
+[INFO] [1792196718.970448321] [autonomous_navigation]: Goal 3: 2.42 m remaining
+[INFO] [1792196721.079206080] [autonomous_navigation]: Goal 3: 2.22 m remaining
+[INFO] [1792196723.188861580] [autonomous_navigation]: Goal 3: 1.97 m remaining
+[INFO] [1792196725.297026719] [autonomous_navigation]: Goal 3: 1.74 m remaining
+[INFO] [1792196727.407691006] [autonomous_navigation]: Goal 3: 1.52 m remaining
+[INFO] [1792196729.519114088] [autonomous_navigation]: Goal 3: 1.32 m remaining
+[INFO] [1792196731.628680584] [autonomous_navigation]: Goal 3: 1.07 m remaining
+[INFO] [1792196733.737891791] [autonomous_navigation]: Goal 3: 0.84 m remaining
+[INFO] [1792196735.847637626] [autonomous_navigation]: Goal 3: 0.64 m remaining
+[INFO] [1792196737.967481036] [autonomous_navigation]: Goal 3: 0.44 m remaining
+[INFO] [1792196739.530845932] [autonomous_navigation]: Goal 3 SUCCEEDED
+[INFO] [1792196739.531572262] [autonomous_navigation]: All goals completed
